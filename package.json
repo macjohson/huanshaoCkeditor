@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/huanshao-ckeditor",
+  "name": "huanshao-ckeditor",
   "version": "12.2.0",
   "description": "The classic editor build of CKEditor 5 – huanshao.tech custom.",
   "keywords": [
@@ -61,9 +61,6 @@
     "npm": ">=5.7.1"
   },
   "author": "CKSource (http://cksource.com/) custom by huanshao.tech",
-  "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/macjohson/huanshaoCkeditor.git/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/macjohson/huanshaoCkeditor.git"
