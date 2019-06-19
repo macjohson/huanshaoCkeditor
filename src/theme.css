@@ -1,7 +1,8 @@
 :root{
-    --ck-focus-ring: 1px solid #3F50B5;
+    --ck-focus-ring: "none";
     --ck-color-list-button-on-background:#3F50B5;
     --ck-color-list-button-on-background-focus:#3F50B5;
+    --ck-inner-shadow:"none";
 }
 
 .ck.ck-toolbar{
