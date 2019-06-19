@@ -31,6 +31,8 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 
+import "./theme.css";
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -65,7 +67,6 @@ ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
-			'|',
 			'bold',
 			'italic',
 			'link',
@@ -77,11 +78,9 @@ ClassicEditor.defaultConfig = {
 			'mediaEmbed',
 			'undo',
 			'redo',
-			'|',
 			'fontSize',
 			'fontColor',
 			'fontBackgroundColor',
-			'|',
 			'alignment'
 		]
 	},
