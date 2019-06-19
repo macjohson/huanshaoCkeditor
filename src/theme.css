@@ -16,3 +16,7 @@
   .ck.ck-reset_all, .ck.ck-reset_all *{
       color: #737373;
   }
+
+  .ck.ck-editor__editable_inline{
+      padding: 0;
+  }
