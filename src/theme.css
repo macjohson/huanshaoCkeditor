@@ -1,5 +1,5 @@
 :root{
-    /* --ck-focus-ring: "none"; */
+    --ck-focus-ring: 2px solid #3f51b5;
     --ck-color-list-button-on-background:#3F50B5;
     --ck-color-list-button-on-background-focus:#3F50B5;
     --ck-inner-shadow:"none";
@@ -9,14 +9,6 @@
     border: 0;
   }
 
-  /* .ck.ck-editor__editable_inline{
-      border: 0;
+.ck.ck-editor__editable_inline{
+      transition: border 450ms;
   }
-
-  .ck.ck-reset_all, .ck.ck-reset_all *{
-      color: #737373;
-  }
-
-  .ck.ck-editor__editable_inline{
-      padding: 0;
-  } */
